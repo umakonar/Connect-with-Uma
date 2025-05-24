@@ -1,0 +1,67 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fef4ea;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: #1c2c3c;
+}
+
+.container {
+  padding: 40px 20px;
+}
+
+.profile-pic {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin: 0;
+}
+
+.subtitle {
+  font-size: 1.1em;
+  color: #3a4a5c;
+  margin: 4px 0;
+}
+
+.contact-section {
+  margin-top: 30px;
+}
+
+.email-btn {
+  display: inline-block;
+  margin: 10px auto;
+  padding: 10px 20px;
+  background-color: #fde0c8;
+  border-radius: 8px;
+  color: #1c2c3c;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1em;
+}
+
+.email-btn i {
+  margin-right: 8px;
+}
+
+.social-icons {
+  margin-top: 20px;
+}
+
+.social-icons a {
+  margin: 0 10px;
+  font-size: 28px;
+  color: #1c2c3c;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #0072b1; /* LinkedIn blue for hover effect */
+}
